@@ -1,6 +1,4 @@
-import attempt1.printers.PrinterFasade;
 import attempt1.printouts.LaserPrintout;
-import attempt1.printers.PrinterType;
 import attempt1.printouts.Printout;
 import org.junit.Test;
 
