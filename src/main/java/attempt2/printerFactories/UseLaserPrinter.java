@@ -1,11 +1,11 @@
-package attempt1.printerFactories;
+package attempt2.printerFactories;
 
 public class UseLaserPrinter implements UsePrinterStrategy {
 
-    public void usePrinter() {
+    public String usePrinter() {
         PrinterFactory laserFactory = new LaserPrinterFactory();
         Printer laserPrinter = laserFactory.createPrinter();
-        laserPrinter.printerPrint();
+        return laserPrinter.printerPrint();
 
     }
 }

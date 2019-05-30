@@ -1,4 +1,4 @@
-package attempt1.printerFactories;
+package attempt2.printerFactories;
 
 class LedPrinter implements Printer {
 

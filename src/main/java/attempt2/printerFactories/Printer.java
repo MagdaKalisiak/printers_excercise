@@ -1,4 +1,4 @@
-package attempt1.printerFactories;
+package attempt2.printerFactories;
 
 public interface Printer {
 

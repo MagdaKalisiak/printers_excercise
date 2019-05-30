@@ -1,4 +1,4 @@
-package attempt1.printerFactories;
+package attempt2.printerFactories;
 
 public class LedPrinterFactory implements PrinterFactory {
     public Printer createPrinter() {

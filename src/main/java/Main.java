@@ -1,9 +1,11 @@
-import attempt1.printouts.Printout;
+import attempt2.Client;
+import attempt2.printerFactories.UseLaserPrinter;
 
 public class Main {
     public static void main(String[] args) {
-        PrinterFasade printerFasade = new PrinterFasade();
-        Printout printout = printerFasade.print(PrinterType.LASER);
+
+        Client adam = new Client(new UseLaserPrinter() );
+        System.out.println(adam.print());
 
 
     }
