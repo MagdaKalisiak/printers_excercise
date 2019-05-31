@@ -1,12 +1,11 @@
-import attempt1.printers.PrinterFasade;
-import attempt1.printers.PrinterType;
-import attempt1.printouts.Printout;
+import attempt4.printers.PrinterFasade;
+import attempt4.printers.PrinterType;
 
 public class Main {
     public static void main(String[] args) {
         PrinterFasade printerFasade = new PrinterFasade();
-        Printout printout = printerFasade.print(PrinterType.LASER);
-
+        String printout = printerFasade.print(PrinterType.LASER);
+        System.out.println(printout);
 
     }
 }
