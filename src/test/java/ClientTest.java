@@ -1,7 +1,7 @@
-import attempt1.printers.PrinterFasade;
-import attempt1.printouts.LaserPrintout;
-import attempt1.printers.PrinterType;
-import attempt1.printouts.Printout;
+import attempt3.printers.PrinterFasade;
+import attempt3.printouts.LaserPrintout;
+import attempt3.printers.PrinterType;
+import attempt3.printouts.Printout;
 import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;
