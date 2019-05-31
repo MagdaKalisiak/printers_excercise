@@ -10,7 +10,7 @@ enum PrinterType {
      LED(LedPrinter::new);
 
 
-     public final Supplier<Printer> factory;
+      final Supplier<Printer> factory;
      private PrinterType(Supplier<Printer> factory) {
          this.factory = requireNonNull(factory);
      }
@@ -18,7 +18,3 @@ enum PrinterType {
 
 
 
-
-
-
-        //Animal dog = AnimalFarm.valueOf("Woof").factory.get();
